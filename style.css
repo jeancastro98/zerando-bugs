@@ -15,7 +15,7 @@
 
 .ligth {
   --text-color: black;
-  --bg-url: url(/assets/bg-mobile-light.jpg);
+  --bg-url: url(./assets/bg-mobile-light.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
@@ -55,7 +55,7 @@ body * {
   margin: 4px auto;
 }
 
-#switch butonn {
+#switch button {
   display: block;
   width: 32px;
   height: 32px;
@@ -68,7 +68,7 @@ body * {
   transform: translateY(-50%);
   animation: slide-back 0.2s;
 }
-.light #switch button {
+.ligth #switch button {
   animation: slide-in 0.2s forwards;
 }
 
@@ -101,7 +101,7 @@ ul li a  {
   justify-content: center;
   align-items: center;
   padding: 16px 24px;
-  background: var(--surface-color);l
+  background: var(--surface-color);
   border: 1px solid var(--stroke-color);
   border-radius: 8px;
   -webkit-backdrop-filter: blur(4px);
@@ -114,7 +114,7 @@ ul li a:hover {
   border: 1.5px solid var(--text-color);
 }
 /* social links */
-.social-links {
+#social-links {
   display: flex;
   justify-content: center;
   padding: 24px 0;
